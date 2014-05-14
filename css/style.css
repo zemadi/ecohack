@@ -1,0 +1,72 @@
+body {
+	font-color: black;	
+	font-family: Arial;
+	width: 80%;
+	margin: auto;
+}
+
+#wrapper {
+     width: auto;
+     height: auto;
+     margin: 40px;
+     padding: 0;
+     overflow: auto;
+}
+
+#title1 {
+	font-size: 65px;
+	max-width: 300px; 
+	display: block;
+	float: left;
+	font-color:gray;
+}
+
+
+ul {
+	list-style: none;
+}
+
+#company1_info {
+	display: block;
+	margin: 0;
+	float: right;
+	text-align: right;
+	width: 500px;
+	line-height: 1.2;
+	font-size: 20px;
+}
+
+#score_label {
+	font-family: Arial;
+	font-color: black;
+	font-size: 55px;
+	font-style: bold;
+	text-align: center;
+}
+
+.gauge1 {
+	max-width: 100%;
+	max-height: 300px;
+	text-align: center;
+/*	margin: 0;
+	position: relative;
+	display: inline;*/
+	margin: 0 auto;
+
+
+}
+
+svg {
+/*	width: 50%;*/
+	margin: 0 auto;
+	background-position: center center;
+
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
